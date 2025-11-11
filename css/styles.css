@@ -205,7 +205,7 @@ nav .menu-menu{
   flex: 0 0 calc(33.333% - 10px);
 }
 .first-option{
-  width: calc((100% - 48px) / 3); 
+  width: calc((100%-48px)/3);
 }
 
 .portfolio h3 {
