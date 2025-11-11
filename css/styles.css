@@ -9,6 +9,8 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #E7E9FC;
+  margin: 0 auto;
+  padding: 0 15px; 
 }
 header .container{
   display: flex;
@@ -23,6 +25,7 @@ header .container{
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5; 
+  margin-right: 76px;
 }
 
 .logo-black {
