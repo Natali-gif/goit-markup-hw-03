@@ -121,12 +121,19 @@ nav .menu-menu{
 }
 
 /* Advantages */
+.advantages{
+  padding: 120px 0;
+}
 .advantages ul {
   list-style: none;
   display: flex;
 }
-
-
+.strategy{
+  gap: 24px;
+}
+.option-one {
+  width: calc((100% - 72px) / 4);
+}
 .name {
   font-weight: 500;
   font-size: 20px;
