@@ -87,6 +87,7 @@ nav .menu-menu{
   background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
+  padding: 188px 0;
 }
 
 .hero h1 {
@@ -95,6 +96,7 @@ nav .menu-menu{
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -107,6 +109,10 @@ nav .menu-menu{
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em; 
+  display: block; 
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
