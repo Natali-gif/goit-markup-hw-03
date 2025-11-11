@@ -217,6 +217,9 @@ nav .menu-menu{
 }
 
 /* Footer */
+.footer{
+  padding: 100px 0;
+}
 footer {
   background-color: #2e2f42;
   color: #ffffff;
@@ -231,6 +234,8 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  margin-bottom: 16px; 
+  display: inline-block; 
 }
 
 .logo-white {
