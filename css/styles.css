@@ -178,6 +178,8 @@ nav .menu-menu{
 /* Portfolio */
 .portfolio {
   text-align: center;
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
 
 .portfolio h2 {
@@ -188,7 +190,10 @@ nav .menu-menu{
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-
+.list{
+  column-gap: 24px;
+  row-gap: 48px; 
+}
 .portfolio ul {
   list-style: none;
   display: flex;
@@ -198,6 +203,9 @@ nav .menu-menu{
 .portfolio li {
   background: #fff;
   flex: 0 0 calc(33.333% - 10px);
+}
+.first-option{
+  width: calc((100% - 48px) / 3); 
 }
 
 .portfolio h3 {
@@ -215,7 +223,9 @@ nav .menu-menu{
   margin: 0 16px 16px 16px;
   letter-spacing: 0.02em;
 }
-
+.portfolio .container{
+  padding: 32px 16px;
+}
 /* Footer */
 .footer{
   padding: 100px 0;
