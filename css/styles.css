@@ -40,7 +40,9 @@ header .container{
   margin: 0;
   padding: 0;
 }
-
+.nav-menu li:last-child{
+  margin-right: 0;
+}
 .menu-link {
   padding: 24px 0;
   text-decoration: none;
@@ -55,7 +57,7 @@ header .container{
   color: #404bbf;
 }
 
-.address-info {
+.address {
   font-style: normal;
 }
 .contact{
@@ -65,6 +67,9 @@ header .container{
   padding: 0;
   margin: 0;
 }
+.contact li:last-child{
+  margin-right: 0;
+}
 .contact-link {
   text-decoration: none;
   color: #434455;
@@ -72,8 +77,8 @@ header .container{
 
 }
 
-.address-info a:hover,
-.address-info a:focus {
+.contact-link a:hover,
+.contact-link a:focus {
   color: #404bbf;
 }
 
