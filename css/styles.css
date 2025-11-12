@@ -207,28 +207,6 @@ nav .menu-menu{
 }
 .name-port {
   margin-bottom: 8px;
-}
-.first-option{
- width: calc((100% - 48px) / 3);
-}
-.list{
-  column-gap: 24px;
-  row-gap: 48px; 
-}
-.portfolio ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.portfolio li {
-  background: #fff;
-}
-.first-option{
- width: calc((100% - 48px) / 3);
-}
-
-.portfolio h3 {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
@@ -236,19 +214,25 @@ nav .menu-menu{
   letter-spacing: 0.02em;
   line-height: 1.2;
 }
-
+.first-option{
+ width: calc((100% - 48px) / 3);
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc; 
+  background: #fff;
+}
+.list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 .portfolio p {
   font-size: 16px;
   color: #434455;
   margin: 0 16px 16px 16px;
   letter-spacing: 0.02em;
 }
-.portfolio .container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc; 
-}
-
-
 /* Footer */
 .footer{
   padding: 100px 0;
