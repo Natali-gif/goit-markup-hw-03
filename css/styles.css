@@ -14,10 +14,6 @@ header {
 header .container{
   display: flex;
 }
-.navigation{
-  display: flex;
-  align-items: center;
-}
 
 .logo-container {
   font-family: "Raleway", sans-serif;
@@ -44,7 +40,10 @@ header .container{
   margin: 0;
   padding: 0;
 }
-
+.navigation{
+  display: flex;
+  align-items: center;
+}
 .menu-item {
   margin-right: 40px;
 }
@@ -227,7 +226,7 @@ header .container{
 }
 
 .option {
-  width: calc((100 - 48px) / 3);
+  flex-basis: calc((100 - 48px) / 3);
   background: #fff;
 }
 
