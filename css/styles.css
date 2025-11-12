@@ -33,15 +33,19 @@ header .container{
   color: #2e2f42;
 }
 
-.menu {
+.nav-menu {
   display: flex;
-  gap: 40px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-.link {
+.studio{
+  margin-right: 40px;
+}
+.studio:last-child{
+  margin-right: 0;
+}
+.menu-link {
   padding: 24px 0;
   text-decoration: none;
   color: #2e2f42;
@@ -50,21 +54,20 @@ header .container{
   line-height: 1.5;
 }
 
-.link:hover,
-.link:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
 .address-info {
   font-style: normal;
 }
-
-.address-info ul {
+.contact{
+   display: flex;
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
-
 .contact-link {
   text-decoration: none;
   color: #434455;
@@ -76,8 +79,10 @@ header .container{
   color: #404bbf;
 }
 .telefon{
-  display: flex; 
-  gap: 40px;
+  margin-right: 40px;
+}
+.telefon:last-child{
+  margin-right: 0;
 }
 
 /* Hero */
