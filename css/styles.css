@@ -14,6 +14,10 @@ header {
 header .container{
   display: flex;
 }
+.navigation{
+  display: flex;
+  align-items: center;
+}
 
 .logo-container {
   font-family: "Raleway", sans-serif;
