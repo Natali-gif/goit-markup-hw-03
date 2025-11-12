@@ -25,6 +25,8 @@ header .container{
   text-decoration: none;
   color: #4d5ae5; 
   margin-right: 76px;
+  display: flex;
+  align-items: center;
 }
 
 .logo-black {
