@@ -215,13 +215,12 @@ nav .menu-menu{
   line-height: 1.2;
 }
 
-.first-option {
+.option {
   width: calc((100% - 48px) / 3);
-  background: #fff;
 }
-
- 
-
+.portfolio li{
+background: #fff;
+}
 .list {
   list-style: none;
   display: flex;
