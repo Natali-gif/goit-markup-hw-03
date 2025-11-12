@@ -33,13 +33,7 @@ header .container{
   color: #2e2f42;
 }
 
-.menu-main {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.menu-one{
+.menu{
   display: flex;
   gap: 40px;
 }
@@ -53,9 +47,7 @@ header .container{
   letter-spacing: 0.02em; 
   padding: 24px 0 24px;
 }
-.studio{
-  padding: 24px 0;
-}
+
 .link:hover,
 .link:focus {
   color: #404bbf;
@@ -78,11 +70,6 @@ header .container{
   color: #434455;
   letter-spacing: 0.02em;
 }
-.telefon{
-  display: flex; 
-  gap: 40px;
-}
-
 
 .address-info a:hover,
 .address-info a:focus {
