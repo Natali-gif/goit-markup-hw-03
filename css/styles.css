@@ -223,8 +223,8 @@ header .container{
   line-height: 1.2;
 }
 
-.option {
-  flex-basis: calc((100% - 48px) / 3);
+.portfolio .option {
+  width: calc((100% - 48px) / 3);
   background: #fff;
 }
 
