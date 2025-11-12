@@ -35,16 +35,12 @@ header .container{
 
 .nav-menu {
   display: flex;
+  gap: 40px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.studio{
-  margin-right: 40px;
-}
-.studio:last-child{
-  margin-right: 0;
-}
+
 .menu-link {
   padding: 24px 0;
   text-decoration: none;
@@ -64,6 +60,7 @@ header .container{
 }
 .contact{
    display: flex;
+   gap: 40px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -72,17 +69,12 @@ header .container{
   text-decoration: none;
   color: #434455;
   letter-spacing: 0.02em;
+
 }
 
 .address-info a:hover,
 .address-info a:focus {
   color: #404bbf;
-}
-.telefon{
-  margin-right: 40px;
-}
-.telefon:last-child{
-  margin-right: 0;
 }
 
 /* Hero */
