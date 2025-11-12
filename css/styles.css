@@ -41,7 +41,7 @@ header .container{
   padding: 0;
 }
 .menu-link {
-  padding: 24px 0 24px 0;
+  padding: 24px 0;
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
@@ -64,9 +64,7 @@ header .container{
   padding: 0;
   margin: 0;
 }
-.contact li:last-child{
-  margin-right: 0;
-}
+
 .contact-link {
   text-decoration: none;
   color: #434455;
@@ -74,8 +72,8 @@ header .container{
 
 }
 
-.contact-link a:hover,
-.contact-link a:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
