@@ -69,14 +69,7 @@ header .container{
 .contact-list {
   display: flex;
   list-style: none;
-}
-
-.contact-item {
-  margin-right: 40px;
-}
-
-.contact-item:last-child {
-  margin-right: 0;
+  gap: 40px;
 }
 
 .contact-link {
