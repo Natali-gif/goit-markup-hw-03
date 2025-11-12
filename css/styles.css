@@ -217,10 +217,9 @@ nav .menu-menu{
 
 .option {
   width: calc((100% - 48px) / 3);
+  background: #fff;
 }
-.portfolio li{
-background: #fff;
-}
+
 .list {
   list-style: none;
   display: flex;
