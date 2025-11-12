@@ -24,11 +24,12 @@ header .container{
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5; 
-  margin-right: 76px;
   display: flex;
   align-items: center;
 }
-
+.logo{
+  margin-right: 76px;
+}
 .logo-black {
   color: #2e2f42;
 }
