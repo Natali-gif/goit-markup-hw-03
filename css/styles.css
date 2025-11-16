@@ -4,16 +4,34 @@ body {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-}
 header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #E7E9FC;
-  
 }
-header .container{
+
+header .container {
   display: flex;
 }
+
+
+.address .contact-list {
+  display: flex;     
+  gap: 40px;         
+  margin: 0;         
+  padding: 0;
+  list-style: none;  
+}
+
+
+.address .contact-item {
+  
+}
+
+.address .contact-item:last-child {
+  margin-right: 0;
+}
+
 
 .logo-container {
   font-family: "Raleway", sans-serif;
