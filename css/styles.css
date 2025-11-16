@@ -5,12 +5,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+.main-header {
+  border-bottom: 1px solid #E7E9FC;
+}
 
-header .container {
+.main-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #E7E9FC;
+}
+
 }
 
 header {
@@ -257,7 +261,7 @@ address {
   text-align: center;
 }
 
-/* новый класс для контейнера */
+
 .portfolio-text {
   font-size: 16px;
   color: #434455;
