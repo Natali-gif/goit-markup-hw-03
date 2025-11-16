@@ -214,8 +214,7 @@ address {
   width: 100%;
   height: auto;
 }
-
-.name-port {
+h3.name-port {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
@@ -223,6 +222,7 @@ address {
   line-height: 1.2;
   margin-bottom: 8px;
 }
+
 
 .portfolio {
   text-align: center;
