@@ -1,4 +1,4 @@
-<style>body {
+body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
   color: #434455;
@@ -214,15 +214,10 @@ address {
   width: 100%;
   height: auto;
 }
-h3.name-port {
-  font-weight: 500;
-  font-size: 20px;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
-  margin: 0 0 8px 0;
-}
 
+.name-port {
+  margin-bottom: 8px;
+}
 
 .portfolio {
   text-align: center;
@@ -303,5 +298,3 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
-</style>
