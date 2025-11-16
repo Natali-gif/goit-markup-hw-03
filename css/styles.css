@@ -81,3 +81,51 @@
 .mark {
   border-radius: 0 0 4px 4px;
 }
+
+@media (max-width: 1024px) {
+  .header-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .navigation {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .menu-nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .address-list {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .strategy {
+    flex-direction: column;
+  }
+
+  .tree-list {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .option-one,
+  .mark,
+  .option {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 100px 15px;
+  }
+
+  .hero-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
